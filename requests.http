@@ -1,0 +1,43 @@
+GET http://localhost:5000/api/v1/
+
+### ADD INCOMES
+
+POST http://localhost:5000/api/v1/add-income
+Content-Type: application/json
+
+{
+    "title":"Sai",
+    "amount":2000,
+    "category":"Freelance",
+    "description":"My income",
+    "date":"1-5-2024"
+}
+
+### GET INCOMES
+
+GET http://localhost:5000/api/v1/get-incomes
+
+### DELETE INCOMES
+
+DELETE http://localhost:5000/api/v1/delete-income/66360b74dbba12491eb627d2
+
+### ADD EXPENSE
+
+POST http://localhost:5000/api/v1/add-expense
+Content-Type: application/json
+
+{
+    "title":"Sai",
+    "amount":1500,
+    "category":"Shopping",
+    "description":"My Expense",
+    "date":"1-5-2024"
+}
+
+### GET EXPENSES
+
+GET http://localhost:5000/api/v1/get-expenses
+
+### DELETE EXPENSE
+
+DELETE http://localhost:5000/api/v1/delete-expense/66360b74dbba12491eb627d2
